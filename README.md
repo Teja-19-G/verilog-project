@@ -31,6 +31,6 @@ y=(~sel & a)|(sel & b)
 ### Tools
 - EDA Playground
 - Icarus Verilog v12
-##wavform
+### wavform
 <img width="1276" height="942" alt="image" src="https://github.com/user-attachments/assets/078035cf-b5a0-4f6c-964d-e674c0c1fda3" />
 
