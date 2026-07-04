@@ -19,7 +19,7 @@ A synchronous 4-bit counter increments at clock every rising edge, from 0 to 15,
 ## 2. 2-to-1 Multiplexer
 A combinational 2 to 1 multiplexer that 2 1 bit inputs and 1 output based on selection line.
 
-##Truth table:
+## Truth table:
 | sel | a | b | y |
 |-----|---|---|---|
 |  0  | 0 | 0 | 0 |
@@ -27,7 +27,7 @@ A combinational 2 to 1 multiplexer that 2 1 bit inputs and 1 output based on sel
 |  1  | 0 | 0 | 0 |
 |  1  | 0 | 1 | 1 |
 ## Logic Equation
-y=(~sel & a)|(sel & b)
+y=(~sel & a) | (sel & b)
 ### Tools
 - EDA Playground
 - Icarus Verilog v12
