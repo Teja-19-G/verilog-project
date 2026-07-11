@@ -37,7 +37,7 @@ y=(~sel & a) | (sel & b)
 
 
 ### 3. FSM
-A finale state machine to detect the binary sequnce of 1011. its clock goes high when the pattern is detecteed.
+A finale state machine to detect the binary sequnce of 1011.its output goes high when the pattern is detecteed.
 
 ### States
 - S0: Initial state, no pattern progress
