@@ -34,3 +34,25 @@ y=(~sel & a) | (sel & b)
 ### wavform
 <img width="1276" height="942" alt="image" src="https://github.com/user-attachments/assets/078035cf-b5a0-4f6c-964d-e674c0c1fda3" />
 
+
+
+### 3. FSM
+A finale state machine to detect the binary sequnce of 1011. its clock goes high when the pattern is detecteed.
+
+### States
+- S0: Initial state, no pattern progress
+- S1: Detected `1`
+- S2: Detected `10`
+- S3: Detected `101`
+- S4: Detected `1011` — output = 1
+### Features
+- Moore-type output (depends only on current state)
+- Synchronous reset
+- Handles overlapping sequences
+### Tools
+- EDA Playground
+- Icarus Verilog v12
+  
+### Waveform
+<img width="1274" height="983" alt="image" src="https://github.com/user-attachments/assets/df9db24e-4634-4112-87a0-8bea1b691c49" />
+
