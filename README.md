@@ -79,7 +79,7 @@ A 8-bit ALU that performs mathametical and logical operations in the computer.
 ### Tools
 - EDA Playground
 - Icarus Verilog v12
-### waveform
+### Waveform
 <img width="1269" height="1031" alt="image" src="https://github.com/user-attachments/assets/38326d6c-d28b-4149-a3d2-b7454c4a0d20" />
 
 
