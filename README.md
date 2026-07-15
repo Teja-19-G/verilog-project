@@ -65,7 +65,7 @@ A 8-bit ALU that performs mathametical and logical operations in the computer.
 | 000 | Addition | a + b |
 | 001 | Subtraction | a - b |
 | 010 | Bitwise AND | a & b |
-| 011 | Bitwise OR |   a|b    |
+| 011 | Bitwise OR |   a | b  |
 | 100 | Bitwise XOR | a ^ b |
 | 101 | Bitwise NOT | ~a |
 | 110 | Shift Left | a << 1 |
