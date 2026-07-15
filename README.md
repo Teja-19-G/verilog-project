@@ -56,3 +56,30 @@ A finale state machine to detect the binary sequnce of 1011.its output goes high
 ### Waveform
 <img width="1274" height="983" alt="image" src="https://github.com/user-attachments/assets/df9db24e-4634-4112-87a0-8bea1b691c49" />
 
+
+## 4. Arithmetic logic unit
+A 8-bit ALU that performs mathametical and logical operations in the computer.
+### Operations
+| Opcode | Operation | Symbol |
+|--------|-----------|--------|
+| 000 | Addition | a + b |
+| 001 | Subtraction | a - b |
+| 010 | Bitwise AND | a & b |
+| 011 | Bitwise OR | a | b |
+| 100 | Bitwise XOR | a ^ b |
+| 101 | Bitwise NOT | ~a |
+| 110 | Shift Left | a << 1 |
+| 111 | Shift Right | a >> 1 |
+### features
+- 8-bit inputs and output
+- 3-bit opcode selector
+- Combinational logic — no clock required
+- All operations verified with a = 10, b = 3
+
+### Tools
+- EDA Playground
+- Icarus Verilog v12
+### waveform
+<img width="1269" height="1031" alt="image" src="https://github.com/user-attachments/assets/38326d6c-d28b-4149-a3d2-b7454c4a0d20" />
+
+
