@@ -70,7 +70,7 @@ A 8-bit ALU that performs mathametical and logical operations in the computer.
 | 101 | Bitwise NOT | ~a |
 | 110 | Shift Left | a << 1 |
 | 111 | Shift Right | a >> 1 |
-### features
+### Features
 - 8-bit inputs and output
 - 3-bit opcode selector
 - Combinational logic — no clock required
