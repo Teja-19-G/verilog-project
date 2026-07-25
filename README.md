@@ -82,4 +82,23 @@ A 8-bit ALU that performs mathametical and logical operations in the computer.
 ### Waveform
 <img width="1269" height="1031" alt="image" src="https://github.com/user-attachments/assets/38326d6c-d28b-4149-a3d2-b7454c4a0d20" />
 
+## 5. FSM - 1011 Sequence Detector (SystemVerilog)
+
+A SystemVerilog rewrite of the 1011 sequence detector FSM,
+demonstrating modern RTL coding style.
+
+### Key Differences from Verilog Version
+- `logic` type replaces `reg` and `wire`
+- `always_ff` replaces `always @(posedge clk)`
+- `always_comb` replaces `always @(*)`
+- `typedef enum` replaces `parameter` for state encoding
+
+### Tools
+- EDA Playground
+- Icarus Verilog v12
+### Waveform
+<img width="1278" height="931" alt="image" src="https://github.com/user-attachments/assets/e575a564-4936-499f-9dc9-7fb5976ad6c2" />
+
+
+
 
